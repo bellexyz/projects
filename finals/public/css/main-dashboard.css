@@ -1,0 +1,130 @@
+/* main-dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5d5959;
+    color: #f9fcfc;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* main-dashboard.css */
+
+/* ... (your existing styles) */
+
+img {
+    width: 400px; /* Set a fixed width */
+    height: 450px; /* Set a fixed height */
+    border-radius: 50%; /* Create a circular container */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-top: 1cm;
+    display: block; /* Remove any extra space below the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle box shadow for a lifted effect */
+    object-fit: cover; /* Ensure the entire image fills the circular container */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+
+
+/* styles.css */
+
+/* Style for the name heading */
+p {
+    color: #f9fcfc; /* Set the text color */
+    font-size: 60px; /* Set the font size to make it bigger */
+    font-weight: bold; /* Make the font bold */
+    margin-bottom: 20px; /* Add more bottom margin for spacing */
+    font-family: Freestyle Script;
+    text-align: center; /* Center the text */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+    /* Add more styles as needed */
+}
+p:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+h2 {
+    color: #f9fcfc;
+    margin-left: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+
+}
+h2:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+
+/* main-dashboard.css */
+
+
+
+/* main-dashboard.css */
+
+/* ... (your existing styles) */
+
+/* Adjust the margin or padding as needed */
+ul {
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 1in;
+    margin-right: 1in;
+    font-family: Arial Narrow;
+    overflow-wrap: break-word; /* Add this line to allow text to wrap */
+    border: 2px solid #3d3d3d; /* Add a border around the paragraph */
+    padding: 10px; /* Add padding to create space between the text and the border */
+    border-radius: 8px; /* Add rounded corners to the border */
+    background-color: #3d3d3d;
+    box-shadow: 0 4px 8px rgba(82, 79, 79, 0.1); /* Add subtle box shadow for a lifted effect */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+ul:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+li {
+    margin-right: 10in;
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+
+}
+
+li:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+a {
+    line-height: 1.6;
+    text-align: justify;
+    color: #f9fcfc;
+    margin-left: 1in;
+    margin-right: 1in;
+    font-family: Arial Narrow;
+    overflow-wrap: break-word; /* Add this line to allow text to wrap */
+    border: 2px solid #3d3d3d; /* Add a border around the paragraph */
+    padding: 10px; /* Add padding to create space between the text and the border */
+    border-radius: 8px; /* Add rounded corners to the border */
+    background-color: #3d3d3d;
+    box-shadow: 0 4px 8px rgba(82, 79, 79, 0.1); /* Add subtle box shadow for a lifted effect */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+a:hover {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,100 @@
+/* login-dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5d5959;
+    color: #5d5959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #5d5959;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+h1:hover {
+    transform: scale(1.05); /* Scale the heading on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #575555;
+    border-radius: 8px; /* Add rounded corners to the border */
+}
+
+label {
+    color: #f9fcfc;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 3in;
+    font-size: 16px;
+}
+
+.input-container {
+    position: relative;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #3d3d3d;
+    color: #f9fcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+/* Style for the placeholder text */
+.input-container .placeholder-text {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Allow clicks through the placeholder text */
+    transition: all 0.3s ease;
+}
+
+/* Style for the placeholder text when the input is focused or has value */
+.input-container input:focus + .placeholder-text,
+.input-container input:valid + .placeholder-text {
+    font-size: 10px;
+    top: 0;
+    transform: translateY(0);
+    color: #faf4f4;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #5d5959;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05); /* Scale the button on hover */
+}
