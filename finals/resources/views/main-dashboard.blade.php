@@ -1,4 +1,3 @@
-<!-- resources/views/main-dashboard.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
     
     @if($latestImage)
         <img src="{{ asset('images/' . $latestImage->filename) }}" alt="Latest Image">
-        <p>{{ $latestImage->name }}</p> <!-- Fix here -->
+        <p>{{ $latestImage->name }}</p> 
     @endif
 <a href="{{ route('login.dashboard') }}"><i class="fas fa-sign-in-alt"></i></a>
 

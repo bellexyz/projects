@@ -1,4 +1,3 @@
-<!-- resources/views/crud-dashboard.blade.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,6 @@
 <body>
     <img src="{{ asset('images/' . $image->filename) }}" alt="Uploaded Image">
 
-    <!-- Display the editable name in a text input -->
     <form action="{{ route('crud-dashboard.updateName') }}" method="post">
         @csrf
         <input type="text" name="editable_name" value="{{ $image->name ?? '' }}" required>

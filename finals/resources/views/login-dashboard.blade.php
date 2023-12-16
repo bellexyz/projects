@@ -1,4 +1,3 @@
-<!-- resources/views/login-dashboard.blade.php -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +17,6 @@
             <span class="placeholder-text">Email</span>
         </div>
     
-        <!-- Password input field -->
         <div class="input-container">
             <input type="password" name="password" required>
             <span class="placeholder-text">Password</span>

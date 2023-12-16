@@ -1,9 +1,5 @@
 <?php
 
-// app/Models/Image.php
-
-// app/Models/Image.php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -15,7 +11,7 @@ class Image extends Model
 
     protected $fillable = [
         'filename',
-        'name', // Add the name field
+        'name', 
     ];
 }
 
